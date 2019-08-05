@@ -1,0 +1,9 @@
+The time taken by case 4 is approximately 127 seconds and while case 3 takes 99 seconds.
+Hence, the time difference is approx 28 seconds.
+
+Buy, the RMSE of case 4 is 1.1388873030015374 while that of case 3 is 1.138913195166567.
+
+This difference seems small but it proves the point that the combination can help us get a better score. With more improvements to the code, the difference can be maximized further.
+
+LSH with Jaccard helps us get this difference since I also considered all those businesses that had a jaccard of 0.5 or greater.
+Incase the user had not rated one these businesses, I multipled the users average rating to the weight between the items. This helps us take more items into considerations and hence improves the rating.
